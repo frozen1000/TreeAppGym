@@ -1,7 +1,8 @@
 using TreeAppGym.App.Dominio;
 using System.Linq;
+//permite trabajar BD
 using System.Collections.Generic;
-
+//permite leer los namespace
 
 namespace TreeAppGym.App.Persistencia
 {
@@ -28,7 +29,7 @@ namespace TreeAppGym.App.Persistencia
         public PlanNutricional ConsultarPlanNutricional(int idPlanNutricional)
         {
             return _appContext.PlanNutricional.FirstOrDefault(pn => pn.Id == idPlanNutricional);
-        
+            //doble == porque estoy comparando enteros
         }
 
         public IEnumerable<PlanNutricional> ConsultarPlanNutricional()

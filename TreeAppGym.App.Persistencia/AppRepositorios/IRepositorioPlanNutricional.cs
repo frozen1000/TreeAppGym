@@ -1,7 +1,7 @@
 using TreeAppGym.App.Dominio;
 // para que pueda leer donde está la entidad PlanNutricional
 using System.Collections.Generic;
-// este using es para que no me marque error con las listas numeradas
+// para que no me marque error con las listas numeradas, importa todo lo que tiene que ver con listas
 // en este paquete se encuentra todo lo que tiene que ver con listas
 
 namespace TreeAppGym.App.Persistencia{
