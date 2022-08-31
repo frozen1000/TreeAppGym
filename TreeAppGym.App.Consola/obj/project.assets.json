@@ -5801,11 +5801,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TreeAppGym1\\TreeAppGym.App\\TreeAppGym.App.Consola\\TreeAppGym.App.Consola.csproj",
+      "projectUniqueName": "D:\\TreeAppGym1\\fork TreeAppGym\\TreeAppGymForked\\TreeAppGym.App.Consola\\TreeAppGym.App.Consola.csproj",
       "projectName": "TreeAppGym.App.Consola",
-      "projectPath": "D:\\TreeAppGym1\\TreeAppGym.App\\TreeAppGym.App.Consola\\TreeAppGym.App.Consola.csproj",
+      "projectPath": "D:\\TreeAppGym1\\fork TreeAppGym\\TreeAppGymForked\\TreeAppGym.App.Consola\\TreeAppGym.App.Consola.csproj",
       "packagesPath": "C:\\Users\\olgui\\.nuget\\packages\\",
-      "outputPath": "D:\\TreeAppGym1\\TreeAppGym.App\\TreeAppGym.App.Consola\\obj\\",
+      "outputPath": "D:\\TreeAppGym1\\fork TreeAppGym\\TreeAppGymForked\\TreeAppGym.App.Consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\olgui\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5819,8 +5819,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\TreeAppGym1\\TreeAppGym.App\\TreeAppGym.App.Persistencia\\TreeAppGym.App.Persistencia.csproj": {
-              "projectPath": "D:\\TreeAppGym1\\TreeAppGym.App\\TreeAppGym.App.Persistencia\\TreeAppGym.App.Persistencia.csproj"
+            "D:\\TreeAppGym1\\fork TreeAppGym\\TreeAppGymForked\\TreeAppGym.App.Persistencia\\TreeAppGym.App.Persistencia.csproj": {
+              "projectPath": "D:\\TreeAppGym1\\fork TreeAppGym\\TreeAppGymForked\\TreeAppGym.App.Persistencia\\TreeAppGym.App.Persistencia.csproj"
             }
           }
         }

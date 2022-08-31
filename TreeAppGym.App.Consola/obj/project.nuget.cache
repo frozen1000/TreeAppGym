@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yxl7IOgA4Rwru1gfqPFrAntXmYa8bAPaQsN6YmSDYygWEZU/yBf8cKva44HEZIK1b2cY3ITTJ9lvhmnn2whrAA==",
+  "dgSpecHash": "V1aZVM+9JV00OgTbTzeNPJFnc9cioqphXA6+iAC2+eIaANUbN+WllML0KdOLcBfXChMUF6yYVz5RtAu+XfFxeA==",
   "success": true,
-  "projectFilePath": "D:\\TreeAppGym1\\TreeAppGym.App\\TreeAppGym.App.Consola\\TreeAppGym.App.Consola.csproj",
+  "projectFilePath": "D:\\TreeAppGym1\\fork TreeAppGym\\TreeAppGymForked\\TreeAppGym.App.Consola\\TreeAppGym.App.Consola.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\olgui\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\olgui\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

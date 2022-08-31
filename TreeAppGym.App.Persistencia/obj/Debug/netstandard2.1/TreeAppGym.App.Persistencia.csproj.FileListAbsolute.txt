@@ -23,3 +23,15 @@ C:\Users\marga\dllo\net\TreeAppGym\TreeAppGym.App.Persistencia\obj\Debug\netstan
 C:\Users\marga\dllo\net\TreeAppGym\TreeAppGym.App.Persistencia\obj\Debug\netstandard2.1\TreeAppGym.App.Persistencia.csproj.CopyComplete
 C:\Users\marga\dllo\net\TreeAppGym\TreeAppGym.App.Persistencia\obj\Debug\netstandard2.1\TreeAppGym.App.Persistencia.dll
 C:\Users\marga\dllo\net\TreeAppGym\TreeAppGym.App.Persistencia\obj\Debug\netstandard2.1\TreeAppGym.App.Persistencia.pdb
+D:\TreeAppGym1\fork TreeAppGym\TreeAppGymForked\TreeAppGym.App.Persistencia\obj\Debug\netstandard2.1\TreeAppGym.App.Persistencia.csprojAssemblyReference.cache
+D:\TreeAppGym1\fork TreeAppGym\TreeAppGymForked\TreeAppGym.App.Persistencia\obj\Debug\netstandard2.1\TreeAppGym.App.Persistencia.AssemblyInfoInputs.cache
+D:\TreeAppGym1\fork TreeAppGym\TreeAppGymForked\TreeAppGym.App.Persistencia\obj\Debug\netstandard2.1\TreeAppGym.App.Persistencia.AssemblyInfo.cs
+D:\TreeAppGym1\fork TreeAppGym\TreeAppGymForked\TreeAppGym.App.Persistencia\obj\Debug\netstandard2.1\TreeAppGym.App.Persistencia.csproj.CoreCompileInputs.cache
+D:\TreeAppGym1\fork TreeAppGym\TreeAppGymForked\TreeAppGym.App.Persistencia\obj\Debug\netstandard2.1\TreeAppGym.App.Persistencia.dll
+D:\TreeAppGym1\fork TreeAppGym\TreeAppGymForked\TreeAppGym.App.Persistencia\obj\Debug\netstandard2.1\TreeAppGym.App.Persistencia.pdb
+D:\TreeAppGym1\fork TreeAppGym\TreeAppGymForked\TreeAppGym.App.Persistencia\bin\Debug\netstandard2.1\TreeAppGym.App.Persistencia.deps.json
+D:\TreeAppGym1\fork TreeAppGym\TreeAppGymForked\TreeAppGym.App.Persistencia\bin\Debug\netstandard2.1\TreeAppGym.App.Persistencia.dll
+D:\TreeAppGym1\fork TreeAppGym\TreeAppGymForked\TreeAppGym.App.Persistencia\bin\Debug\netstandard2.1\TreeAppGym.App.Persistencia.pdb
+D:\TreeAppGym1\fork TreeAppGym\TreeAppGymForked\TreeAppGym.App.Persistencia\bin\Debug\netstandard2.1\TreeAppGym.App.Dominio.dll
+D:\TreeAppGym1\fork TreeAppGym\TreeAppGymForked\TreeAppGym.App.Persistencia\bin\Debug\netstandard2.1\TreeAppGym.App.Dominio.pdb
+D:\TreeAppGym1\fork TreeAppGym\TreeAppGymForked\TreeAppGym.App.Persistencia\obj\Debug\netstandard2.1\TreeAppGym.App.Persistencia.csproj.CopyComplete
