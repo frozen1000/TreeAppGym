@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using TreeAppGym.App.Dominio;
 using TreeAppGym.App.Persistencia;
 
