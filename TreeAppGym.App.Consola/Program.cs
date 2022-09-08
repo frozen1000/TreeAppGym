@@ -13,9 +13,9 @@ namespace TreeAppGym.App.Consola
         static void Main(string[] args)
         {
             Console.WriteLine("Bienvenidos al Gimnasio");
-            //AdicionarPlanNutricional();
-            ConsultarPlanNutricional(5);
-            //ActualizarPlanNutricional();
+            AdicionarPlanNutricional();
+            ConsultarPlanNutricional();
+            ActualizarPlanNutricional();
             // EliminarPlanNutricional();
 
         }
@@ -33,11 +33,14 @@ namespace TreeAppGym.App.Consola
             
         }
         //Clase específica para consultar el objeto PlanNutricional
-        private static void ConsultarPlanNutricional(int idPlanNutricional)
+        private static void ConsultarPlanNutricional()
         {
-            var planNutricional = _repoPlanNutricional.ConsultarPlanNutricional(idPlanNutricional);
-            Console.WriteLine(planNutricional.Categoria+" "+planNutricional.Descripcion+" "+planNutricional.Imagen);
-              
+            var planNutricional = new PlanNutricional
+            {
+             
+            }; 
+           _repoPlanNutricional.ConsultarPlanNutricional(2); 
+               
         }
         //Clase específica para eliminar el objeto PlanNutricional
         private static void EliminarPlanNutricional()
