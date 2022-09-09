@@ -14,9 +14,9 @@ namespace TreeAppGym.App.Consola
         {
             Console.WriteLine("Bienvenidos al Gimnasio");
             //AdicionarPlanNutricional();
-            ConsultarPlanNutricional(5);
-            //ActualizarPlanNutricional();
-            // EliminarPlanNutricional();
+            //ConsultarPlanNutricional(5);
+            ActualizarPlanNutricional();
+            //EliminarPlanNutricional();
 
         }
         //Clase específica para crear el objeto PlanNutricional
@@ -25,12 +25,13 @@ namespace TreeAppGym.App.Consola
             var planNutricional = new PlanNutricional
             {
                 Categoria=Categoria.avanzada,
-                Descripcion="Alimentación saludable pro",
-                Imagen="url.dietaespectacular"
+                Descripcion="Ejemplo Alimentación saludable pro",
+                Imagen="url.prueba Creación"
                 
             };
             _repoPlanNutricional.CrearPlanNutricional(planNutricional);
-            
+            Console.WriteLine("Puede ir al Azure y confirmar la creación");
+
         }
         //Clase específica para consultar el objeto PlanNutricional
         private static void ConsultarPlanNutricional(int idPlanNutricional)
@@ -46,7 +47,7 @@ namespace TreeAppGym.App.Consola
             {
              
             }; 
-           _repoPlanNutricional.EliminarPlanNutricional(2); 
+           _repoPlanNutricional.EliminarPlanNutricional(5); 
                
         }
         //Clase específica para actualizar el objeto PlanNutricional
@@ -54,14 +55,14 @@ namespace TreeAppGym.App.Consola
         {
             var planNutricional = new PlanNutricional
             {
-                
+                Id=8,
                 Categoria=Categoria.avanzada,
-                Descripcion="Alimentación saludable pro",
-                Imagen="url.dietaespectacular"
+                Descripcion="Alimentación saludable actualizada",
+                Imagen="url.prueba actualización del plan nutricionalr"
                  
             }; 
            _repoPlanNutricional.ActualizarPlanNutricional(planNutricional); 
-               
+           Console.WriteLine("Puede ir al Azure y confirmar la actualización");    
         }
 
     }
