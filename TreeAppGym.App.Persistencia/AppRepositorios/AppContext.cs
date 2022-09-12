@@ -6,7 +6,7 @@ namespace TreeAppGym.App.Persistencia
     {
         public DbSet<Cliente> Clientes {get;set;}
         public DbSet<PlanNutricional> PlanNutricional {get; set;}
-        public DbSet<Rutina> Rutinas {get; set;}
+        public DbSet<Rutina> Rutina {get; set;}
         public DbSet<Gym> Gyms {get; set;}
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

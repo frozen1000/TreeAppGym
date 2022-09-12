@@ -12,11 +12,16 @@ namespace TreeAppGym.App.Consola
         //Coloco un objeto que me permite llamar a cada uno de los métodos CRUD
         static void Main(string[] args)
         {
-            Console.WriteLine("Bienvenidos al Gimnasio");
+            Console.WriteLine("Bienvenidos al Gimnasio, estamos probando el CRUD Rutina");
             //AdicionarPlanNutricional();
             //ConsultarPlanNutricional(5);
-            ActualizarPlanNutricional();
+            //ActualizarPlanNutricional();
             //EliminarPlanNutricional();
+
+            //AdicionarRutina();
+            //ConsultarRutina(1);
+            //ActualizarRutina();
+            EliminarRutina();
 
         }
         //Clase específica para crear el objeto PlanNutricional
@@ -62,6 +67,55 @@ namespace TreeAppGym.App.Consola
                  
             }; 
            _repoPlanNutricional.ActualizarPlanNutricional(planNutricional); 
+           Console.WriteLine("Puede ir al Azure y confirmar la actualización");    
+        }
+
+        private static IRepositorioRutina _repoRutina =new RepositorioRutina(new Persistencia.AppContext());
+
+        //Clase específica para crear el objeto Rutina
+        private static void AdicionarRutina()
+        {
+            var rutina = new Rutina
+            {
+                Categoria=Categoria.basica,
+                Descripcion="Ejemplo entrenamiento principiantes",
+                Imagen="url.prueba Creación",
+                Video="url.creación video rutina para definir músculo"
+                
+            };
+            _repoRutina.CrearRutina(rutina);
+            Console.WriteLine("Puede ir al Azure y confirmar la creación");
+
+        }
+        //Clase específica para consultar el objeto Rutina
+        private static void ConsultarRutina(int idRutina)
+        {
+            var rutina = _repoRutina.ConsultarRutina(idRutina);
+            Console.WriteLine(rutina.Categoria+" "+rutina.Descripcion+" "+rutina.Imagen+" "+rutina.Video);
+              
+        }
+        //Clase específica para eliminar el objeto Rutina
+        private static void EliminarRutina()
+        {
+            var rutina = new Rutina
+            {
+             
+            }; 
+           _repoRutina.EliminarRutina(1); 
+           Console.WriteLine("Puede ir al Azure y confirmar la eliminación");    
+        }
+        //Clase específica para actualizar el objeto Rutina
+        private static void ActualizarRutina()
+        {
+            var rutina = new Rutina
+            {
+                Id=1,
+                Categoria=Categoria.avanzada,
+                Descripcion="Rutina para disminución de peso",
+                Imagen="url.imagen de actualización rutina para adelgazar",
+                Video="url.video con la rutina para adelgazar" 
+            };
+            _repoRutina.ActualizarRutina(rutina); 
            Console.WriteLine("Puede ir al Azure y confirmar la actualización");    
         }
 

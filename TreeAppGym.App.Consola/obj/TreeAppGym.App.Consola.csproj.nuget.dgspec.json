@@ -25,6 +25,9 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "D:\\TreeAppGym1\\fork TreeAppGym\\TreeAppGymForked\\TreeAppGym.App.Dominio\\TreeAppGym.App.Dominio.csproj": {
+                "projectPath": "D:\\TreeAppGym1\\fork TreeAppGym\\TreeAppGymForked\\TreeAppGym.App.Dominio\\TreeAppGym.App.Dominio.csproj"
+              },
               "D:\\TreeAppGym1\\fork TreeAppGym\\TreeAppGymForked\\TreeAppGym.App.Persistencia\\TreeAppGym.App.Persistencia.csproj": {
                 "projectPath": "D:\\TreeAppGym1\\fork TreeAppGym\\TreeAppGymForked\\TreeAppGym.App.Persistencia\\TreeAppGym.App.Persistencia.csproj"
               }
